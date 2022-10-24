@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fase3</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body class="cuerpo">
+    <header>
+        <h1 class="Titulo">Etiquetas semánticas, CSS Grid</h1>
+    </header>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="inicio"><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="tema1.html">Etiquetas semánticas</a></li>
+                    <li><a href="tema2.html">CSS Grid</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Multimedios</a>
+                <ul>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul>
+                    <li><a href="actividad1.html">Actividad 1</a></li>
+                    <li><a href="actividad2.html">actividad 2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+    <main class="contenedorInicio">
+        <section class="lateralIzquierdo">
+            <h2>CSS Grid</h2>
+            <p><br>
+                <img src="image/CSSGrid.png" alt="Imagen de CSS grid">
+                <br><br>
+                CSS grid nace de la necesidad de distribuir los elementos de un documento en el mismo, organizar de una manera estética para la visualización del mismo. Grid es un sistema cuadricula dividido en celdas y columnas dándole un tamaño, posición y colocación a gusto. Para empezar a utilizar esta función debemos especificar primero el número de celdas que conformaran nuestro esquema, después de esto ya distribuimos cada componente que ocupara su respectiva celda. 
+                <br><br>
+                <img src="image/cuadricula.png" alt="Imagen cuadricula" width="400px">
+                <br><br>
+                En esta imagen podemos tener una idea de cómo es la distribución de la cuadricula y cómo podemos distribuir a nuestro gusto cada una de las celdas como el tamaño o la posición de la celda más grande con respecto a las demás, esto nos ayuda a tener un mejor orden en la presentación. 
+                <br>
+                Primero debemos indicar con display que vamos a utilizar las cuadriculas y debemos especificar uno de los dos valores que queremos utilizar: grid o inline-grid
+                Para definir las cuadriculas debemos indicar el tamaño de sus filas y columnas utilizando las propiedades grid-template-columns y grid-template-rows. Después especificamos las fracciones que serán divididas con ayuda de fr: grid-template-columns: 1fr 1fr. grid-template-rows: 2fr 1fr
+                <br><br>
+                Mariño M. agosto 2019. CSS Grid: Ventajas y primeros pasos. Recuperado de: https://dinahosting.com/blog/css-grid-ventajas-y-primeros-pasos/
+                <br><br>
+                KeepCoding. Junio de 2022. Posicionamiento avanzado con CSS Grid. Recuperado de: https://keepcoding.io/blog/posicionamiento-avanzado-con-css-grid/
+                <br><br>
+                Alberca C. Enero de 2018. Maquetación con CSS Grid. Recuperado de: https://www.adictosaltrabajo.com/2018/01/30/maquetacion-con-css-grid/ 
+            </p>
+        </section>
+        <aside class="lateralDerecho">
+            <a class="twitter-timeline" data-height="500"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer>
+        <ul>
+            <li>Correo: jarodriguezza@unadvirtual.edu.co</li>
+            <li>Skype: jeison.andres20</li>
+            <li>Fecha: 23 de octubre de 2022</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
